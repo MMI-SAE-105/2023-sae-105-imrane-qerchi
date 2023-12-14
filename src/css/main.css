@@ -17,15 +17,21 @@ small {
     font-size: 12px;
 }
 
+p.footer__text {
+    font-family: 'Bell MT', serif;
+    font-weight: normal;
+    font-size: 26px;
+}
+
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', serif;
     font-weight: bold;
     font-size: 48px;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: semi-bold;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
     font-size: 32px;
 }
 
