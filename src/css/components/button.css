@@ -7,5 +7,5 @@
     border-radius: 4px;
     background-color: transparent;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* Ajoutez une transition pour une animation fluide */
 }
