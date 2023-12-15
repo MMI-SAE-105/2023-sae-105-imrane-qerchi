@@ -1,0 +1,27 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    padding: var(--space2x) var(--space3x);
+    display: flex;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+    background-color: #004080;
+}
+
+.header__logo {
+    display: block;
+    width: 123px;
+    height: 27px;
+}
+
+.menu-icon img {
+    width: 24px;
+    height: 15px;
+}
+
+.header__menu {
+    display: none;
+}
