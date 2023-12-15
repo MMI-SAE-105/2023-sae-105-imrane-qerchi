@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,10 @@
               <img class="header__logo" src="/public/img/logo.svg" alt="Logo Fondation Cartier">
             </a>
           </div>
-        <div class="menu-icon">
+        <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">
             <img src="/public/img/menu-open.svg" alt="Menu" class="menu-img">
-        </div>
-
-        <nav class="header__menu">
+        </button>
+        <nav id="mainNav" x-show="menuIsOpen" @click.away="menuIsOpen = false" class="header__menu">
             <ul class="menu__list list-unstyled">
             <li class="menu__item"><a class="menu__link" href="#">Accueil</a></li>
             <li class="menu__item"><a class="menu__link" href="#">L'exposition</a></li>
@@ -35,16 +34,16 @@
             <img class="footer__logo" src="/public/img/logo.svg" alt="Logo Fondation Cartier">
             <hr class="divider">
             <ul class="list-unstyled">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">À propos</a></li>
+              <li><a href="/fr/contact.html">Contact</a></li>
+              <li><a href="/fr/a_propos.html">À propos</a></li>
               <li><a href="#">Mentions légales</a></li>
             </ul>
             <p class="footer__text">
                 Nous contacter : <a class="footer__link" href="mailto:fondation-cartier@fondation.cartier.com">fondation-cartier@fondation.cartier.com</a><br>            
             </p>
-            <p class="footer__text">
+            <span class="footer__text">
                 Site Web réalisé par Imrane QERCHI dans le cadre d’une Situation d’Apprentissage et d’Évaluation au <strong><a href="https://mmimontbeliard.com/" class="footer__link">département MMi de Montbéliard.</a></strong>
-            </p>
+            </span>
           </nav>
 
     </footer>

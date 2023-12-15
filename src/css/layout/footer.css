@@ -1,7 +1,9 @@
 .footer {
+    position: relative;
     background-color: #E8491D;
     padding: var(--space2x) 0;
     width: 100%;
+    height : 100%;
 }
 
 .footer__logo {
@@ -15,21 +17,18 @@
 }
 
 .footer__text {
-    font-family: 'Bell MT', serif;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 1.5;
-    color: var(--gray-white);
     text-align: center;
 }
 
 .footer__link {
     font-weight: bold;
     text-decoration: underline;
-    color: var(--gray-white);
 }
 
 .list-unstyled {
+    position : absolute;
+    color : #000000;
+    text-decoration: none;
     list-style: none;
     padding: 0;
     margin: 0;

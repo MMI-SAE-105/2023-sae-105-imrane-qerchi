@@ -20,7 +20,7 @@
             <img src="/public/img/menu-open.svg" alt="Menu" class="menu-img">
         </div>
 
-        <nav class="header__menu">
+        <nav id="mainNav" x-data="{ menuIsOpen: false }" :class="{ noscroll: menuIsOpen }" class="header__menu">
             <ul class="menu__list list-unstyled">
             <li class="menu__item"><a class="menu__link" href="#">Accueil</a></li>
             <li class="menu__item"><a class="menu__link" href="#">L'exposition</a></li>
@@ -93,7 +93,7 @@
             <img class="footer__logo" src="/public/img/logo.svg" alt="Logo Fondation Cartier">
             <hr class="footer__divider">
             <ul class="list-unstyled">
-              <li><h2><a href="#">Contact</a></li>
+              <li ><a href="#">Contact</a></li>
               <li><a href="#">À propos</a></li>
               <li><a href="#">Mentions légales</a></li>
             </ul>
