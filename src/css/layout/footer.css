@@ -1,0 +1,40 @@
+.footer {
+    background-color: #E8491D;
+    padding: var(--space2x) 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer__logo {
+    width: 30px;
+    height: 30px;
+    margin-right: var(--space2x);
+}
+
+.divider {
+    width: 95%;
+    margin: var(--space2x) auto;
+    border-top: 2px solid black;
+}
+
+.footer__text {
+    font-family: 'Bell MT', serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 1.5;
+    color: var(--gray-white);
+    text-align: center;
+}
+
+.footer__link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--gray-white);
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
