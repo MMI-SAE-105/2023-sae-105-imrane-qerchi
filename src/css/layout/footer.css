@@ -1,20 +1,17 @@
 .footer {
     background-color: #E8491D;
     padding: var(--space2x) 0;
-    text-align: center;
     width: 100%;
 }
 
 .footer__logo {
-    width: 30px;
-    height: 30px;
-    margin-right: var(--space2x);
+    margin-top : 10px;
+    margin-left: 10px;
 }
 
 .divider {
     width: 95%;
-    margin: var(--space2x) auto;
-    border-top: 2px solid black;
+    text-align: center;
 }
 
 .footer__text {

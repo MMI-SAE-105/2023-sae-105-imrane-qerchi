@@ -2,6 +2,7 @@ body {
     font-family: 'Bell MT', serif;
     font-weight: normal;
     font-size: 16px;
+    margin: 0;
 }
 
 em {
@@ -45,4 +46,33 @@ h4 {
     font-family: 'Bell MT', serif;
     font-weight: normal;
     font-size: 20px;
+}
+
+.information-section {
+    text-align: center;
+}
+  
+.section-title {
+    margin-bottom: 20px;
+}
+  
+.divider {
+    width: 15px;
+    margin-left: 10px;
+}
+
+.body-text {
+    margin: 8px;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    margin: 8px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+.price {
+    margin-left: 200px; 
 }

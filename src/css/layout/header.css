@@ -1,8 +1,8 @@
 .main-header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height : 75px;
     z-index: 2;
     padding: var(--space2x) var(--space3x);
     display: flex;
@@ -13,13 +13,17 @@
 
 .header__logo {
     display: block;
-    width: 123px;
-    height: 27px;
+    left: 13px;
+    position: absolute;
+    top: 25px;
 }
 
 .menu-icon img {
+    height: 16px;
+    left: 333px;
+    position: absolute;
+    top: 27px;
     width: 24px;
-    height: 15px;
 }
 
 .header__menu {
