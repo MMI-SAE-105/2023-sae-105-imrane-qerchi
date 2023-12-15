@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/">
+              <img class="header__logo" src="/public/img/logo.svg" alt="Logo Fondation Cartier">
+            </a>
+          </div>
+        <div class="menu-icon">
+            <img src="/public/img/menu-open.svg" alt="Menu" class="menu-img">
+        </div>
+
+        <nav class="header__menu">
+            <ul class="menu__list list-unstyled">
+            <li class="menu__item"><a class="menu__link" href="#">Accueil</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">L'exposition</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Billeterie</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Fumihiko Maki</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Œuvres</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">À propos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="image-container">
+            <img src="/public/img/fumihiko-maki.webp">
+        </div>
+        <h1 class="main-title">L'odyssée</h1>
+        <h1 class="main-title-suite">structurale</h1>
+        <h2 class="subtitle-details">de Fumihiko Maki.</h2>
+
+        <section class="information-section">
+            <h3 class="section-title">Informations</h3>
+            <hr class="divider">
+            <br>
+        </section>
+
+        <section class="dates-section">
+            <h3 class="section-title">Dates de l'exposition</h3>
+            <p class="body-text">Du 13 avril au 23 juin 2024</p>
+            <br>
+        </section>
+
+        <section class="location-section">
+            <h3 class="section-title">Lieu de l'exposition</h3>
+            <p class="body-text">Fondation Cartier pour l'art contemporain</p>
+            <p class="body-text">261 Boulevard Raspail</p>
+            <p class="body-text">75014 Paris</p>
+            <br>
+        </section>
+
+        <section class="opening-hours-section">
+            <h3 class="section-title">Horaires d'ouverture</h3>
+            <p class="body-text">Tous les jours de 11h à 20h, sauf le lundi.</p>
+            <p class="body-text">Noturne le mardi, jusqu'à 22h.</p>
+            <p class="body-text">La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
+            <br>
+        </section>
+
+        <section class="prices-section">
+            <h3 class="section-title">Tarifs</h3>
+            <p class="body-text">Plein tarif<span class="price">11€</span></p>
+            <hr class="divider">
+            <p class="body-text">Tarif réduit<span class="price">7,50€</span></p>
+            <hr class="divider">
+            <p class="body-text">Réduction 13-25 ans<span class="price">5€</span></p>
+            <hr class="divider">
+            <p class="body-text">Moins de 13 ans<span class="price">Gratuit</span></p>
+            <p class="body-text">Laissez-passer annuel</p>
+            <p class="body-text">Carte Icom, carte de presse, carte d'invalidité / PMR</p>
+            <p class="body-text">Fondation Cartier Pass</p>
+            <p class="body-text">Étudiants</p>
+            <br>
+        </section>
+
+        <button class="reserve-button">Réserve ton billet</button>
+
+    </main>
+
+    <footer class="footer">
+        <nav class="footer">
+            <img class="footer__logo" src="/public/img/logo.svg" alt="Logo Fondation Cartier">
+            <hr class="footer__divider">
+            <ul class="list-unstyled">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">À propos</a></li>
+              <li><a href="#">Mentions légales</a></li>
+            </ul>
+            <p class="footer__text">
+                Nous contacter : <a class="footer__link" href="mailto:fondation-cartier@fondation.cartier.com">fondation-cartier@fondation.cartier.com</a><br>            
+            </p>
+            <p class="footer__text">
+                Site Web réalisé par Imrane QERCHI dans le cadre d’une Situation d’Apprentissage et d’Évaluation au <strong><a href="https://mmimontbeliard.com/" class="footer__link">département MMi de Montbéliard.</a></strong>
+            </p>
+          </nav>
+
+    </footer>
+    
+</body>
+
+</html>
